@@ -272,11 +272,15 @@ width: 100%;
     font-size: 1rem;
     padding-top: 15px; 
  }
+
  .social-bar{
   width: 15%;
 }
    .caja {
    width: 90%;
+ }
+ .tamaño-carousel {
+   width: 80%;
  }
 
  .overlay-publicidad{
@@ -328,7 +332,9 @@ width: 100%;
  .caja {
    width: 85%;
  }
-
+ .tamaño-carousel {
+  width: 80%;
+}
  .overlay-publicidad{
   border-radius: 25px 0px 25px 0px;
   -moz-border-radius: 25px 0px 25px 0px;
