@@ -128,8 +128,10 @@ width: 100%;
 }
 
 .caja-nosotros {
-  padding-top: 10%;
-  
+  padding-top: 10%; 
+}
+.foto-1998 {
+  width: 50%;
 }
 .tamaño-carousel {
   margin-top: 21%;
