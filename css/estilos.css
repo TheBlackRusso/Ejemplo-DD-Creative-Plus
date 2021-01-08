@@ -114,7 +114,7 @@ border: 0px solid #000000;
   -webkit-border-radius: 60px 0px 60px 0px;
 }
 
-.caja:hover .over .caja-publicidad:hover .overlay-publicidad {
+.caja:hover .over, .caja-publicidad:hover .overlay-publicidad {
 width: 100%;
 }
 
