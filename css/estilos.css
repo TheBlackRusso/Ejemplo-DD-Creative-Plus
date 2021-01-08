@@ -78,8 +78,7 @@ border: 0px solid #000000;
 .caja-publicidad {
   position: relative;
   width: 100%;
-  overflow: hidden;
-   
+  overflow: hidden; 
  } 
 
   .tamaño-container {
@@ -102,6 +101,7 @@ border: 0px solid #000000;
   color: white;
 }
 
+
 .overlay{
   border-radius: 60px 0px 60px 0px;
   -moz-border-radius: 60px 0px 60px 0px;
@@ -114,9 +114,10 @@ border: 0px solid #000000;
   -webkit-border-radius: 60px 0px 60px 0px;
 }
 
-.caja:hover .overlay .caja-publicidad:hover .overlay-publicidad{
+.caja:hover .over .caja-publicidad:hover .overlay-publicidad {
 width: 100%;
 }
+
 
 .caja-principal {
   margin-top: 5%;
