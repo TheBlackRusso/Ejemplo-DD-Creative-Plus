@@ -282,7 +282,7 @@ border-radius: 60px 0px 60px 0px;
 }
  .social-bar{
    width: 15%;
-   margin-top: -55%;  
+   margin-top: 0%;  
  }
 
  .navbar-toggler {
@@ -310,7 +310,7 @@ border-radius: 60px 0px 60px 0px;
    font-size: 0.5rem;
   }
   .logo {
-   width: 58.3%;
+   width: 57%;
    justify-content: center;
   }
   .logo-foto {
@@ -330,11 +330,11 @@ border-radius: 60px 0px 60px 0px;
 
   /* CSS Contactos */
  .margen-mapa {
- margin-top: 30%;
+ margin-top: 40%;
 } 
 .tamaño-mapa {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
 .cabezeravideo {
   margin-top: 80%;
