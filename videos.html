@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <title>Pagina 02</title>
+    <title>Videos</title>
 
      <!-- Llamado al estilo de fuentes desde Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Andika&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -30,39 +30,52 @@
 <body>
   <!-- Container Principal -->
   <div class="container tamaño-principal">
+    
+    <!-- Comienzo de Header o Cabezera -->
 
-<!-- Cabezera -->
-<header class="row cabezera fixed-top p-3 colorHeader">
-  <div  class="col-sm-4 col-md-4 col-lg-4 col-6 container-fluid">
-    <a href="index.html">
-      <img src="png/logo.png "  class="img-fluid logo" alt="" loading="lazy"></a>   
-    </a>
-  </div>
-  <nav class="navbar navbar-expand-md">
-    <a class="navbar-brand" href=""></a>
-    <!-- Permite crear la botonera para dispositivos pequeños -->
-    <button class="navbar-toggler navbar-light bg-light col-12" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- Permite crear la botonera para dispositivos pequeños -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="nosotros.html">Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactos.html">Contáctanos</a>
-        </li>
-      </ul>
+    <header class="fixed-top p-3 row">
+    
+      <div class="logo container-fluid">
+          <img src="png/logo.png"  class="logo" alt="" loading="lazy" >
+            <a href="index.html">
+             <div class="logo-foto"> 
+            <img src="png/Eduardo y Yesenia.png"  class="logo-foto" alt="" loading="lazy">
+            </a>
+         </div>        
+     </div>
+        
+     <div class="navbar">
+      <nav class="navbar-expand-md navbar-toggleable-sm">
+        <a class="navbar-brand" href=""></a>     
+        <!-- Permite crear la botonera para dispositivos pequeños -->
+       <button  class="navbar-toggler navbar-light bg-light col-12" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>   
+        <!-- Permite crear la botonera para dispositivos pequeños -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav ml-auto text-center">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactos.html">Contactos</a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </nav> 
     </div>
-  </nav>
-</header>
+    
+    </header> 
+    
+    <!-- Fin del Header o Cabezera -->
 
 
 <Aside>
@@ -93,22 +106,96 @@
 
 <!-- Sobre Nosotros -->
 
-<section class="videos">
+<section class="row text-center">
 
-<h2>Bienvenidos a la pagina de videos</h2>
+  <div class="cabezeravideo col-sm-12 col-md-6">
+    <h4>Parte de Nuestro Trabajo en 23 años</h4>
+  </div> 
+
+   <div class="row caja-video-principal">
+
+     <div class="caja-video-secundario col-sm-12 col-md-6">
+      <video  controls class="tamaño-video">
+        <source src="videos/Varela Hnos tiempo de pandemia.mp4" type="video/mp4">
+      </video>
+      <p>Hnos. Varela en tiempo de pandemia</p>
+    </div>
+    
+    <div class="caja-video-secundario col-sm-12 col-md-6">
+      <video  controls class="tamaño-video">
+        <source src="videos/75 años de Bertha.mp4" type="video/mp4">
+      </video>
+      <p>Los 75 años de Bertha</p>
+    </div>
+  
+    <div class="caja-video-secundario col-sm-12 col-md-6">
+      <video  controls class="tamaño-video">
+        <source src="videos/dia de diversion.mp4" type="video/mp4">
+      </video>
+      <p>Un día de mucha diversión</p>
+    </div>
+  
+    <div class="caja-video-secundario col-sm-12 col-md-6">
+      <video  controls class="tamaño-video">
+        <source src="videos/Herrera campeon.mp4" type="video/mp4">
+      </video>
+      <p>Homenaje al Equipo Campeón de Herrera</p>
+    </div>
+
+    <div class="caja-video-secundario col-sm-12 col-md-6">
+      <video  controls class="tamaño-video">
+        <source src="videos/15 años de Keytlin.mp4" type="video/mp4">
+      </video>
+      <p>15 años de Keytlin</p>
+    </div>
+
+    <div class="caja-video-secundario col-sm-12 col-md-6">
+      <video  controls class="tamaño-video">
+        <source src="videos/Matrimonio de Jorge e Ivis.mp4" type="video/mp4">
+      </video>
+      <p>Matrimonio de Jorge e Ivis</p>
+    </div>
+
+    <div class="caja-video-secundario col-sm-12 col-md-6">
+      <video  controls class="tamaño-video">
+        <source src="videos/Varela Hnos. ayuda a tierra altas.mp4" type="video/mp4">
+      </video>
+      <p>Hnos. Varela ayuda a tierras altas</p>
+    </div>
+
+    <div class="caja-video-secundario col-sm-12 col-md-6">
+      <video  controls class="tamaño-video">
+        <source src="videos/Cumpleaños de Yohelis.mp4" type="video/mp4">
+      </video>
+      <p>Cumpleaños de Yohelis</p>
+    </div>
+
+    <div class="caja-video-secundario col-sm-12 col-md-6">
+      <video  controls class="tamaño-video">
+        <source src="videos/Genesis Universidad de Panamá.mp4" type="video/mp4">
+      </video>
+      <p>Proyecto de Genesis, facultad de medicina</p>
+    </div>
+
+    <div class="caja-video-secundario col-sm-12 col-md-6">
+      <video  controls class="tamaño-video">
+        <source src="videos/Misa de zafra 2020 Hnos Varela.mp4" type="video/mp4">
+      </video>
+      <p>Misa de Zafra Hnos. Varela 2019 </p>
+    </div>
+
+    <div class="caja-video-secundario col-sm-12 col-md-6">
+      <video  controls class="tamaño-video">
+        <source src="videos/Video Clip Pre jornada JMJ.mp4" type="video/mp4">
+      </video>
+      <p>Pre Jornada de la JMJ 2019 Pesé </p>
+    </div>   
+
+   </div>  
+
  
-<video width="320" height="240" controls>
-  <source src="videos/Varela Hnos tiempo de pandemia.mp4" type="video/mp4">
-</video>
-<video width="320" height="240" controls>
-  <source src="videos/manu prueba.mp4" type="video/mp4">
-</video> 
-<video width="320" height="240" controls>
-  <source src="videos/Prueba 75.mp4" type="video/mp4">
- </video>
- <video width="320" height="240" controls>
-  <source src="videos/keytlin.mp4" type="video/mp4">
-</video>  
+
+ 
 
 
 </section>
@@ -118,28 +205,28 @@
         <!-- seccion Información -->
         <footer  style="font-family: arsenal; font-size: 1.25rem;" class="bg-transparent mt-3 text-center text-uppercase">
           <div class="container tamaño-fuente">
-       <div class="row">
-         <div class="col-4">
-          <img  src="png/logo.png "  class="img-fluid logo-footer" alt="" loading="lazy"></a>   
-         </div>
-         <div class="col-8">
-           <p>panamá, Chitré, pesé, calle santa ana </p>
-           <p>celular (+507) 67219268</p> 
-           <p> teléfono (+507) 910 6194</p>
-           <p> email: ddcreativeplus@gmail.com</p>
-         </div>
-         <div class="col-12 bg-secondary caja-formulario text-white">
-          <p style="padding-top: 2%;">2020 ©Prueba DD Creative +</p>
-          <p> Todos los derechos reservados.</p>
-         </div>
-       </div>
+           <div class="row">
+            <div class="col-4">
+              <img  src="png/logo.png "  class="img-fluid logo-footer" alt="" loading="lazy"></a>   
+            </div>
+              <div class="col-8">
+               <p>panamá, Chitré, pesé, calle santa ana </p>
+               <p>celular (+507) 67219268</p> 
+               <p> teléfono (+507) 910 6194</p>
+               <p> email: ddcreativeplus@gmail.com</p>
+              </div>
+            <div class="col-12 bg-secondary caja-formulario text-white">
+               <p style="padding-top: 2%;">2020 © DD CREATIVE PLUS</p>
+               <p> Todos los derechos reservados.</p>
+            </div>
           </div>
+        </div>
         </footer>
   
         <!-- seccion Información -->
 
 
-    </div>
+
        <!-- Fin del Container Principal -->
   
 
