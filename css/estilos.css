@@ -292,8 +292,7 @@ border-radius: 60px 0px 60px 0px;
     width: 95%;
   }
   .caja-nosotros {
-    padding-top: 30%;
-    
+    padding-top: 55%; 
   }
   .carousel {
     margin-top: 55%;
@@ -376,7 +375,9 @@ border-radius: 60px 0px 60px 0px;
    .caja {
    width: 90%;
  }
-
+ .caja-nosotros {
+  padding-top: 25%; 
+}
  .carousel {
   margin-top: 40%;
 }
