@@ -16,15 +16,33 @@
   min-width: 15rem;
   max-width: 50rem;
 }
-.cabezera{
-  padding-top: 2.5%;
-  padding-bottom: 3.5%;
-} 
 
-.colorHeader {
-background: rgb(228, 232, 238); 
-
+header {
+background: rgb(228, 232, 238);
+display: flex;
 }  
+
+.navbar {
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  margin: auto; 
+  position: relative; 
+}
+
+.logo-foto {
+  position: absolute;
+  bottom: 0px; 
+  width: 0px;
+  top: -10%;
+  left: 27%;
+}
+
+.logo:hover .logo-foto {
+  width: 45%;
+}
 
 .navbar-nav a {
   font-family: 'arsenal';
@@ -33,9 +51,7 @@ background: rgb(228, 232, 238);
   text-align: center;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
-
 }
-
 
  .navbar-nav a:hover{
   background:#6ea8da;
@@ -43,7 +59,6 @@ background: rgb(228, 232, 238);
   -moz-border-radius: 15px 0px 15px 0px;
   -webkit-border-radius: 15px 0px 15px 0px;
   color: white;
- 
 } 
 
 .jumbotron h1{
@@ -114,10 +129,14 @@ border: 0px solid #000000;
   -webkit-border-radius: 60px 0px 60px 0px;
 }
 
-.caja:hover .over, .caja-publicidad:hover .overlay-publicidad {
+.caja:hover .over  {
 width: 100%;
 }
 
+
+.caja-publicidad:hover .overlay-publicidad {
+  width: 100%;
+}
 
 .caja-principal {
   margin-top: 5%;
@@ -212,6 +231,41 @@ width: 100%;
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
 
+.tamaño-video{
+  width:320px;
+  height: 240px;
+}
+.caja-video-principal {
+  background-color: rgb(245, 245, 245);
+  margin-top: 20%; 
+  border-radius: 60px 0px 60px 0px;
+  -moz-border-radius: 60px 0px 60px 0px;
+  -webkit-border-radius: 60px 0px 60px 0px
+  }
+
+.caja-video-secundario {
+  margin-top: 10%; 
+  } 
+
+
+.cabezeravideo {
+  /* Linea de comando para centar textos */
+  display: grid;
+  place-items: center;
+   /* Linea de comando para centar textos */ 
+  margin-top: 15%;
+  width: 500px;
+  height: 60px;
+  position: absolute;
+  right:400px; 
+  overflow: hidden;  
+  font-family: "andika";
+  background: #73c3f1;
+border-radius: 60px 0px 60px 0px;
+-moz-border-radius: 60px 0px 60px 0px;
+-webkit-border-radius: 60px 0px 60px 0px
+}
+
  @media all and (min-width:0px) and (max-width:255px) {
    h2 {
      font-size: 1.5rem;
@@ -222,9 +276,13 @@ width: 100%;
     font-size: 0.5rem;
     padding-top: 20px; 
  }
+ h3{
+  font-size: 0.5rem;
+ 
+}
  .social-bar{
    width: 15%;
-   
+   margin-top: 20%;  
  }
 
  .navbar-toggler {
@@ -250,14 +308,21 @@ width: 100%;
    font-size: 0.5rem;
   }
   .logo {
-   width: 80%;
+   width: 70%;
    justify-content: center;
+  }
+  .logo-foto {
+    top: -5%;
+    left: 23%;
+  }
+  .logo:hover .logo-foto {
+    width: 55%;
   }
   .logo-footer {
     padding-top: 30px;
   }
    .tamaño-carousel {
-    margin-top: 7rem;
+    margin-top: 12rem;
   } 
   .servicios {
     margin-top: 0%;
@@ -271,6 +336,15 @@ width: 100%;
   width: 100%;
   height: 100%;
 }
+.cabezeravideo {
+  margin-top: 80%;
+  width: 270px;
+  height: 60px;
+  right:-25px; 
+}
+.caja-video-principal {
+  margin-top: 85%;
+}
 
 }  
 
@@ -283,9 +357,14 @@ width: 100%;
     font-size: 1rem;
     padding-top: 15px; 
  }
+ h4{
+  font-size: 1rem;
+ 
+}
 
  .social-bar{
   width: 15%;
+  margin-top: 20%;
  
 }
 
@@ -308,9 +387,16 @@ width: 100%;
   font-size: 0.75rem;
 }
 .logo {
-  width: 90%;
+  width: 70%;
   justify-content: center;
  }
+ .logo-foto {
+  top: -2%;
+  left: 22.5%;
+}
+.logo:hover .logo-foto {
+  width: 55%;
+}
  .logo-footer {
    padding-top: 40px;
  }
@@ -318,7 +404,7 @@ width: 100%;
   margin-left: 0%;
 }
 .tamaño-carousel {
-  margin-top: 7rem;
+  margin-top: 12.5rem;
 }
   /* CSS Contactos */
   .margen-mapa {
@@ -328,6 +414,15 @@ width: 100%;
      width: 100%;
      height: 100%;
    }
+   .cabezeravideo {
+    margin-top: 40%;
+    width: 350px;
+    height: 60px;
+    right:5px; 
+  }
+  .caja-video-principal {
+    margin-top: 45%;
+  }
 }
  
  @media all and (min-width:356px) and (max-width:455px){
@@ -339,13 +434,13 @@ width: 100%;
    font-size: 1.25rem;
    padding-top: 10px; 
     } 
-
+    h4 {
+      font-size: 1.25rem;
+    }
 .social-bar{
    width: 12%;
     }
- .navbar-toggler {
-  
-     }
+
 .text-fotografias{
   text-align: left;
 }
@@ -367,9 +462,17 @@ width: 100%;
   padding-top: 50px;
 }
 .logo {
-  width: 70%;
+  width: 60%;
   justify-content: center;
  }
+ 
+ .logo-foto {
+  top: -7%;
+  left: 22.5%;
+}
+.logo:hover .logo-foto {
+  width: 55%;
+}
 .tamaño-carousel {
   margin-top: 7.5rem;
 }
@@ -383,6 +486,16 @@ width: 100%;
      width: 90%;
      height:90%;
    }
+  
+   .cabezeravideo {
+    margin-top: 30%;
+    width: 400px;
+    height: 60px;
+    right:45px; 
+  }
+  .caja-video-principal {
+    margin-top: 35%;
+  }
  }    
 
 @media all and (min-width:456px) and (max-width:540px){
@@ -410,8 +523,15 @@ width: 100%;
   padding-top: 60px;
 }
 .logo {
-  width: 65%;
+  width: 55%;
  }
+ .logo-foto {
+  top: -10%;
+  left: 22.5%;
+}
+.logo:hover .logo-foto {
+  width: 55%;
+}
  .tamaño-carousel {
   margin-top: 8rem;
 }
@@ -425,6 +545,15 @@ width: 100%;
    width: 95%;
    height:95%;
  }
+ .cabezeravideo {
+  margin-top: 25%;
+  width: 500px;
+  height: 60px;
+  right:40px; 
+}
+.caja-video-principal {
+  margin-top: 25%;
+}
 }
 
 @media all and (min-width:541px) and (max-width:575px){
@@ -452,8 +581,15 @@ width: 100%;
   padding-top: 50px;
 }
 .logo {
-  width: 60%;
+  width: 50%;
  }
+ .logo-foto {
+  top: -15%;
+  left: 22.5%;
+}
+.logo:hover .logo-foto {
+  width: 55%;
+}
  .tamaño-carousel {
   margin-top: 8rem;
 }
@@ -467,6 +603,15 @@ width: 100%;
    width: 100%;
    height:100%;
  }
+ .cabezeravideo {
+  margin-top: 25%;
+  width: 500px;
+  height: 60px;
+  right:65px; 
+}
+.caja-video-principal {
+  margin-top: 25%;
+}
 }
 
 
@@ -494,8 +639,15 @@ width: 100%;
   padding-top: 50px;
 }
 .logo {
-  width: 70%;
+  width: 50%;
    }
+   .logo-foto {
+    top: -12%;
+    left: 24%;
+  }
+  .logo:hover .logo-foto {
+    width: 52%;
+  }
  /* CSS Contactos */
  .margen-mapa {
   margin-top: 2%;
@@ -505,6 +657,12 @@ width: 100%;
    width: 100%;
    height:100%;
  }
+ .cabezeravideo {
+  margin-top: 20%;
+  width: 500px;
+  height: 60px;
+  right:100px; 
+}
  }
 
 @media all and (min-width:721px) and (max-width:960px){
@@ -528,7 +686,14 @@ width: 100%;
   padding-top: 15px;
 }
 .logo {
-  width: 60%;
+  width: 40%;
+  }
+  .logo-foto {
+    top: -12%;
+    left: 26.5%;
+  }
+  .logo:hover .logo-foto {
+    width: 48%;
   }
    /* CSS Contactos */
  .margen-mapa {
@@ -539,6 +704,12 @@ width: 100%;
    width: 100%;
    height:100%;
  }
+ .cabezeravideo {
+  margin-top: 20%;
+  width: 500px;
+  height: 60px;
+  right:200px; 
+}
 }
 
 @media all and (min-width:961px) and (max-width:1140px){
@@ -560,7 +731,20 @@ width: 100%;
   width: 40%;
    }
    .tamaño-carousel {
-    margin-top: 8rem;
+    margin-top: 9rem;
+  }
+  .logo-foto {
+    top: -12%;
+    left: 26.5%;
+  }
+  .logo:hover .logo-foto {
+    width: 48%;
+  }
+  .cabezeravideo {
+    margin-top: 15%;
+    width: 500px;
+    height: 60px;
+    right:300px; 
   }
 }
 
@@ -577,6 +761,23 @@ width: 100%;
    width: 85%;
  }
 
+ .logo-footer {
+  padding-top: 20px;
+}
+.logo {
+  width: 40%;
+   }
+   .tamaño-carousel {
+    margin-top: 10rem;
+  }
+  .logo-foto {
+    top: -12%;
+    left: 26.5%;
+  }
+  .logo:hover .logo-foto {
+    width: 48%;
+  }
+  
 
 } 
 
@@ -593,6 +794,31 @@ width: 100%;
    width: 85%;
  }
 
+ .logo-footer {
+  padding-top: 20px;
+}
+.logo {
+  width: 40%;
+   }
+   .tamaño-carousel {
+    margin-top: 10rem;
+  }
+  .logo-foto {
+    top: -12%;
+    left: 26.5%;
+  }
+  .logo:hover .logo-foto {
+    width: 48%;
+  }
+  .cabezeravideo {
+    margin-top: 15%;
+    width: 500px;
+    height: 60px;
+    right:700px; 
+  }
+  .caja-video-principal {
+    margin-top: 35%;
+  }
 } 
 
 .caja-formulario {
