@@ -282,7 +282,7 @@ border-radius: 60px 0px 60px 0px;
 }
  .social-bar{
    width: 15%;
-   margin-top: 20%;  
+   margin-top: -55%;  
  }
 
  .navbar-toggler {
@@ -294,6 +294,9 @@ border-radius: 60px 0px 60px 0px;
   .caja-nosotros {
     padding-top: 30%;
     
+  }
+  .carousel {
+    margin-top: 55%;
   }
   .tamaño-carousel {
     width: 90%;
@@ -308,11 +311,11 @@ border-radius: 60px 0px 60px 0px;
    font-size: 0.5rem;
   }
   .logo {
-   width: 70%;
+   width: 58.3%;
    justify-content: center;
   }
   .logo-foto {
-    top: -5%;
+    top: -15%;
     left: 23%;
   }
   .logo:hover .logo-foto {
@@ -321,9 +324,7 @@ border-radius: 60px 0px 60px 0px;
   .logo-footer {
     padding-top: 30px;
   }
-   .tamaño-carousel {
-    margin-top: 12rem;
-  } 
+ 
   .servicios {
     margin-top: 0%;
   }
@@ -364,7 +365,7 @@ border-radius: 60px 0px 60px 0px;
 
  .social-bar{
   width: 15%;
-  margin-top: 20%;
+  margin-top: 0%;
  
 }
 
@@ -375,10 +376,13 @@ border-radius: 60px 0px 60px 0px;
    .caja {
    width: 90%;
  }
- .tamaño-carousel {
-   width: 90%;
- }
 
+ .carousel {
+  margin-top: 40%;
+}
+.tamaño-carousel {
+  width: 90%;
+}
  .overlay-publicidad{
   border-radius: 20px 0px 20px 0px;
   -moz-border-radius: 20px 0px 20px 0px;
@@ -387,11 +391,11 @@ border-radius: 60px 0px 60px 0px;
   font-size: 0.75rem;
 }
 .logo {
-  width: 70%;
+  width: 60%;
   justify-content: center;
  }
  .logo-foto {
-  top: -2%;
+  top: -10%;
   left: 22.5%;
 }
 .logo:hover .logo-foto {
@@ -403,9 +407,7 @@ border-radius: 60px 0px 60px 0px;
  .cabezera {
   margin-left: 0%;
 }
-.tamaño-carousel {
-  margin-top: 12.5rem;
-}
+
   /* CSS Contactos */
   .margen-mapa {
     margin-top: 15%;
