@@ -414,8 +414,8 @@ border-radius: 60px 0px 60px 0px;
     margin-top: 15%;
    } 
    .tamaño-mapa {
-     width: 100%;
-     height: 100%;
+     width: 80%;
+     height: 80%;
    }
    .cabezeravideo {
     margin-top: 40%;
@@ -425,6 +425,9 @@ border-radius: 60px 0px 60px 0px;
   }
   .caja-video-principal {
     margin-top: 45%;
+  }
+  .tamaño-footer {
+    width: 80%;
   }
 }
  
@@ -499,6 +502,9 @@ border-radius: 60px 0px 60px 0px;
   .caja-video-principal {
     margin-top: 35%;
   }
+  .tamaño-footer {
+    width: 80%;
+  }
  }    
 
 @media all and (min-width:456px) and (max-width:540px){
@@ -557,6 +563,9 @@ border-radius: 60px 0px 60px 0px;
 .caja-video-principal {
   margin-top: 25%;
 }
+.tamaño-footer {
+  width: 80%;
+}
 }
 
 @media all and (min-width:541px) and (max-width:575px){
@@ -614,6 +623,9 @@ border-radius: 60px 0px 60px 0px;
 }
 .caja-video-principal {
   margin-top: 25%;
+}
+.tamaño-footer {
+  width: 80%;
 }
 }
 
